@@ -1,0 +1,375 @@
+.bg {
+  background-image: url("./core/img/fold.png");
+  background-position: center;
+  width: "100%";
+}
+.mainHeading {
+  font-family: 'Gilroy' ,sans-serif;
+  font-weight: bold;
+  font-size: 150px;
+  letter-spacing: -4px;
+  line-height: 150px;
+  text-align: center;
+  white-space: pre-line;
+  margin-top: 100px;
+  color: rgb(248, 248, 248);
+  background-color: rgb(15, 15, 15);
+}
+.bg1 {
+  background-image: url("./core/img/div.PNG");
+  background-position: center;
+}
+.bg2 {
+  background-image: url("./core/img/redchair.jpg");
+  background-position: center;
+  background-size: cover;
+  width: "100%";
+  position: relative;
+}
+
+.bg3 {
+  background-image: url("./core/img/water.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg4 {
+  background-color: rgb(15, 15,15);
+}
+
+.bg5 {
+  background-image: url("./core/img/back.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg6 {
+  background-image: url("./core/img/dog.jpg");
+  background-position: center;
+  background-size: cover;
+  width: "100%";
+}
+
+.bg7 {
+  background-image: url("./core/img/green.jpg");
+  background-position: center;
+  background-size: cover;
+  width: "100%";
+}
+
+.Dbutton {
+  display: inline-flex;
+  white-space: nowrap;
+  align-items: center;
+  position: relative;
+  pointer-events: auto;
+  text-align: center;
+  padding: 20px 65px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-family: sans-serif;
+  letter-spacing: normal;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 58px;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+.OneText {
+  font-family: sans-serif;
+  font-size: 30px;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  margin-top: 35px;
+  text-align: center;
+  color: rgb(248, 248, 248);
+  text-align: center;
+  font-weight: bold;
+}
+/* SECTION THREE CSS */
+.ThreeText {
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  white-space: pre-line;
+  letter-spacing: -1px;
+  line-height: 94px;
+  padding-bottom: 10px;
+  -webkit-text-fill-color: transparent;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  background: -webkit-linear-gradient(
+    129deg,
+    rgb(155, 128, 116),
+    rgb(178, 170, 156),
+    rgb(155, 128, 116)
+  );
+  background-clip: text;
+}
+
+.threeSubText {
+  max-width: 800px;
+  opacity: 0.6;
+  font-family:'Gilroy' ,sans-serif;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.5px;
+  line-height: 45px;
+  margin-top: 24px;
+}
+
+.threeDownload {
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  white-space: nowrap;
+  border: 2px solid rgb(248, 248, 248);
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 22px 44px;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  margin-top: 45px;
+  z-index: 2;
+  position: relative;
+  background-color: transparent;
+  color: white;
+}
+.ThreeKnowMore {
+  display: inline-block;
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(221, 234, 238);
+  letter-spacing: 0.4px;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 45px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* SECTION FOUR CSS */
+
+.FourText {
+  font-size: 100px;
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+  letter-spacing: -3px;
+  line-height: 96px;
+  white-space: pre-line;
+  opacity: 0.9;
+  color: #f8f8f8;
+}
+.FourSubText {
+  font-size: 32px;
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  line-height: 38px;
+  white-space: pre-line;
+  max-width: 630px;
+  margin-top: 16px;
+  color: #f8f8f8;
+}
+
+.Four2Text {
+  font-size: 18px;
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: 28px;
+  white-space: pre-line;
+  max-width: 680px;
+  margin-bottom: 40px;
+  color: #f8f8f8;
+}
+.FourButton {
+  display: inline-flex;
+  white-space: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  pointer-events: auto;
+  text-align: center;
+  padding: 20px 65px;
+  background-color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  border: white;
+}
+
+/* SECTION seven CSS */
+.sevenText {
+  font-size: 105px;
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+  letter-spacing: -3.15px;
+  line-height: 105px;
+  white-space: pre-line;
+  color: #f8f8f8;
+  margin-top: 200px;
+}
+.sevensubText {
+  font-size: 18px;
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: 28px;
+  white-space: pre-line;
+  max-width: 650px;
+  margin-top: 52px;
+  color: #f8f8f8;
+}
+
+.tentext {
+  margin-top: 200px;
+  font-size: 60px;
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+  letter-spacing: -1.15px;
+  line-height: 64px;
+  white-space: pre-line;
+  color: #f8f8f8;
+  vertical-align: bottom;
+  ;
+}
+
+
+.tensubtext {
+  margin-top: 60px;
+  font-family:'Gilroy',sans-serif;
+  font-size: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  color: #f8f8f8;
+  letter-spacing: 1.5px;
+  
+}
+
+
+.elevenText{
+  font-size: 160px;
+    line-height: 120px;
+    padding-right: 16px;
+    opacity: 0.9;
+    color: #f8f8f8;
+    text-align: right;
+}
+.elevenTextstore{
+  text-align: left;
+  font-size: 60px;
+    padding-right: 16px;
+    opacity: 0.9;
+    color: #f8f8f8;
+}
+
+.btnDownloadL{
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family:'Gilroy' ,sans-serif;
+    font-weight: bolder;
+    padding: 15px 0px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer; 
+    margin-top: 50px;
+    margin-left: 220px;
+}.btnDownloadR{
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family:'Gilroy' ,sans-serif;
+    font-weight: bolder;
+    padding: 15px 0px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer; 
+    margin-top: 50px;
+}
+
+.twelveFont{
+  color: rgb(255, 255, 255);
+    opacity: 0.8;
+    font-family:'Gilroy' ,sans-serif;
+    font-weight: bold;
+        font-size: 19px;
+    line-height: 36px;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.twelveSubfont{
+  opacity: .6;
+  font-family:'Gilroy' ,sans-serif;
+  font-weight: bold;
+    font-size: 12px;
+  letter-spacing: .3px;
+  line-height: 18px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  max-width: 290px;
+  color:rgb(255, 255, 255);
+}
+
+.twelvesubques{
+  font-family:'Gilroy' ,sans-serif;
+    font-size: 12px;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    margin-top: 20px;
+    opacity: .6;
+
+}
+div {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+
+.twelvesubAns{
+  font-family:'Gilroy' ,sans-serif;
+    font-size: 12px;
+    color:rgb(255, 255, 255);
+    margin-top: 15px;
+    opacity: .6;
+
+}
+.imgM{
+  position: sticky;
+  top: 0; 
+}
+
+@media only screen and (min-width:481px) and (max-width:767px) {
+  .imgOne{
+    width: 33px;
+    height: 44px;
+  }
+}
+
